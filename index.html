@@ -45,15 +45,10 @@
 
 
     <script>
-        $("#oak").click(function(){
-            $("#i_content").attr("src","oak_content.html");
-            $("#i_summary").attr("src","oak_summary.html");
+        $('button').click(function(){
+            $('#i_content').attr('src',`${this.id}_content.html`)
+            $('#i_summary').attr('src',`${this.id}_summary.html`)
         })
-        $("#beech").click(function(){
-
-
-        })
-
         /* This will not be merged !  */
 
 
